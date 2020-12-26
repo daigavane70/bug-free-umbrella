@@ -1,0 +1,92 @@
+.list{
+    width: 100vw;
+    align-content: center;
+  }
+  
+  .event .buttn{
+      align-content: bottom;
+      vertical-align: bottom;
+      position: inherit;
+  }
+
+  .event button {
+    border: none;
+    background: #404040;
+    color: black;
+    font-weight: 100;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    border-radius: 0%;
+
+    border: 2px aqua solid;
+
+    text-align: center;
+    vertical-align: center;
+
+    font-size: 14px;
+    margin: 2px;
+    background-color: aqua;
+    vertical-align: bottom;
+  }
+
+  .event button:hover, button:active{
+    border: aqua solid 2px;
+    background-color: black;
+    border-radius: 0%;
+    color: #404040 !important;
+    font-weight: 700 !important;
+    transition: all 0.3s ease 0s;
+    }
+
+    .event button:focus{
+        outline: none;
+        
+        background-color: black;
+        border-radius: 0%;
+        color: #404040 !important;
+        font-weight: 700 !important;
+        transition: all 0.3s ease 0s;
+        border: aqua solid 2px;
+    }
+
+  .list .event .logo{
+      size: 32px;
+      color: aqua;
+  }
+
+  .list .event .title{
+    color: white;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-left: 5px;
+  }
+
+  .list .event .info{
+      color: gray;
+      padding-left: 5px;
+  }
+
+  .list .event{
+    
+    display: inline-block;
+    border-radius: 5px;
+  
+    width: 15vw;
+    height: 15vw;
+    margin:  2vw;
+  
+    background-color: black;
+  
+    border: solid black 5px;
+  
+
+  }
+  
+  .list .event:hover, .event:focus{
+    padding-top: auto;
+    border: 5px solid aqua;
+
+  }
+  

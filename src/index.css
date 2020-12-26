@@ -8,28 +8,44 @@ body {
 }
 
 header{
-  font-size: 32px;
+  font-size: 64px;
   margin: 5px auto;
   text-align: center;
-  border: solid;
 }
 
-#container{
-  text-align: center;
-}
-
-table{
-  text-align: center;
+nav div{
   width: 100%;
+  display: inline-block;
 }
 
-th{
-  width: 50%;
-  border: solid;
-  padding: 5px;
+.navButton{ 
+  text-align: center;
+  display: inline-block;
+  background: none;
+  width: 46vw;
+  position: relative;
+  font-weight: bold;
+  border: 2px aqua solid;
+  font-size: 32px;
+  height: 50px;
+  background-color: aqua;
+  margin: 4px 1.5vw;
+}
+
+.navButton:focus, .navButton:hover, .navButton:active{
+  border-bottom: black solid 2px;
+  outline: none;
+  font-size: 36px;
+  margin: 0px 1.5vw;
+}
+
+.selected button{
+  background-color: teal;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
